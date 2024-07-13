@@ -290,6 +290,7 @@ endipresult() {
         echo -e "${purple}*           ${yellow}Best IPv4:Port${purple}         *${rest}"
         echo -e "${purple}*                                  *${rest}"
         echo -e "${purple}*          ${cyan}$Endip_v4${purple}     *${rest}"
+        echo -e "${purple}*   ${cyan}warp://$Endip_v4${purple}     *${rest}"
         echo -e "${purple}*           ${cyan}Delay: ${green}[$delay]        ${purple}*${rest}"
         echo -e "${purple}************************************${rest}"
     elif [ "$Endip_v6" ]; then
